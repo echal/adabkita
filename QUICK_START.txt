@@ -1,0 +1,136 @@
+================================================================================
+                    ⚡ QUICK START - FRONTPAGE ADABKITA
+================================================================================
+
+🚀 LANGKAH CEPAT (5 Menit)
+
+1. JALANKAN SERVER
+   ┌─────────────────────────────────────────────┐
+   │ cd C:\xampp\htdocs\deeplearning             │
+   │ php artisan serve                           │
+   └─────────────────────────────────────────────┘
+
+2. BUKA BROWSER
+   http://localhost:8000
+
+3. LIHAT HASILNYA!
+   ✓ Frontpage sudah muncul
+   ✓ Coba klik tombol-tombol
+   ✓ Test di mobile (F12 → Toggle Device)
+
+================================================================================
+
+📝 EDIT CEPAT (Yang Paling Penting)
+
+1. GANTI VIDEO
+   File: resources/views/frontpage.blade.php
+   Cari: dQw4w9WgXcQ
+   Ganti dengan: [ID VIDEO YOUTUBE ANDA]
+
+2. GANTI EMAIL
+   File: resources/views/frontpage.blade.php
+   Cari: info@adabkita.gaspul.com
+   Ganti dengan: [EMAIL SEKOLAH ANDA]
+
+3. UBAH JUDUL HERO
+   File: resources/views/frontpage.blade.php
+   Baris ~72: Edit teks "Selamat Datang di AdabKita"
+
+================================================================================
+
+🐛 TROUBLESHOOTING
+
+MASALAH: Halaman tidak muncul
+SOLUSI:
+   php artisan route:clear
+   php artisan view:clear
+   php artisan cache:clear
+
+MASALAH: CSS berantakan
+SOLUSI:
+   - Cek koneksi internet
+   - Refresh browser (Ctrl + F5)
+
+MASALAH: Video tidak muncul
+SOLUSI:
+   - Pastikan ID video benar
+   - Video harus public (bukan private)
+
+================================================================================
+
+📚 DOKUMENTASI LENGKAP
+
+Baca file-file ini untuk detail:
+├── DOKUMENTASI_FRONTPAGE.md      ← Panduan lengkap (BACA INI DULU!)
+├── README_FRONTPAGE.txt           ← Quick reference
+├── PANDUAN_VISUAL_FRONTPAGE.md    ← Panduan visual & design
+├── CHECKLIST_FRONTPAGE.md         ← Checklist testing
+└── SUMMARY_FRONTPAGE_PROJECT.md   ← Ringkasan project
+
+================================================================================
+
+📁 FILE PENTING
+
+Yang boleh diedit:
+✓ resources/views/frontpage.blade.php       (Konten utama)
+✓ resources/views/layouts/front.blade.php   (Warna & style)
+
+Yang JANGAN diedit (kecuali tahu yang dilakukan):
+✗ routes/web.php
+✗ Bootstrap CDN links
+✗ JavaScript di bagian bawah
+
+================================================================================
+
+🎨 STRUKTUR HALAMAN (Dari Atas ke Bawah)
+
+1. Navbar (sticky)
+2. Hero Section (ungu, judul besar)
+3. Keunggulan (3 kartu)
+4. Tentang AdabKita
+5. Video YouTube
+6. Call to Action (ungu)
+7. Footer (dark)
+
+================================================================================
+
+✅ CHECKLIST SEBELUM LAUNCH
+
+□ Video sudah diganti (bukan dummy)
+□ Email sudah diganti
+□ Teks sudah disesuaikan
+□ Test di Chrome/Firefox
+□ Test di Mobile
+□ Semua link berfungsi
+
+================================================================================
+
+💡 TIPS
+
+- Backup file sebelum edit
+- Test di localhost dulu
+- Gunakan VS Code untuk edit
+- Jangan edit pakai MS Word!
+
+================================================================================
+
+📞 BANTUAN
+
+Stuck? Baca: DOKUMENTASI_FRONTPAGE.md
+Masih stuck? Hubungi: tim developer GASPUL
+
+================================================================================
+
+🎉 SELESAI!
+
+Frontpage sudah siap digunakan. Tinggal:
+1. Ganti video
+2. Ganti email
+3. Sesuaikan teks
+4. Deploy!
+
+Good luck! 🚀
+
+================================================================================
+© 2025 AdabKita - GASPUL
+================================================================================
